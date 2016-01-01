@@ -4,10 +4,15 @@ body {
     width: 100%;
 }
 
+ion-content {
+    width: 100%;
+}
+
 .travel-list {
     padding: 0px 5px 0px 5px; 
     overflow: auto;
     height: 100%;
+    width: 100%;
 }
 .travel-list .travel-item {
     background-color: #e5e5e5;

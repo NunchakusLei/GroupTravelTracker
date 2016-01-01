@@ -36,11 +36,11 @@ angular.module('GroupTravelTracker',
         .state('TravelList', {
         url: "/TravelList",
         templateUrl: "views/TravelList.html",
-        controller: 'TravelListCtrl'
+        controller: 'TravelListCtrl',
     })
 
         .state('ExpenseList', {
-        url: "/ExpenseList",
+        url: "/ExpenseList:travelId",
         templateUrl: "views/ExpenseList.html",
         controller: 'ExpenseListCtrl'
     })
