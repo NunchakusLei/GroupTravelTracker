@@ -1,0 +1,16 @@
+<div class="travel-list">
+    <div class="travel-item" ng-repeat="expense in expenseList" ng-click="goToExpenseList(travel)">
+        <div>
+            {{expense.itemName}}
+        </div>
+        <div>
+            {{expense.amount}}
+        </div>
+    </div>
+</div>
+
+<div class="start-new-travel-button " ng-click="startNewTravel()">
+    <div class="text">
+        Add an new expense item
+    </div>
+</div>

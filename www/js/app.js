@@ -6,7 +6,8 @@
 angular.module('GroupTravelTracker', 
                ['ionic',
                 'controller.ExpenseListCtrl',
-                'controller.TravelListCtrl'
+                'controller.TravelListCtrl',
+                'GroupTravelTrackerFactory'
                ])
 
     .run(function($ionicPlatform) {
@@ -47,5 +48,5 @@ angular.module('GroupTravelTracker',
     ;
 
     // if none of the above states are matched, use this as the fallback
-    $urlRouterProvider.otherwise('/app/map');
+    $urlRouterProvider.otherwise('/TravelList');
 });
