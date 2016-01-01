@@ -1,0 +1,13 @@
+<div>
+    <input type="text" placeholder="Enter item name" ng-model="newExpense.itemName">
+</div>
+<div>
+    <input type="number" placeholder="Enter amount" ng-model="newExpense.amount">
+</div>
+<label class="text-center"><h5>Select shared people</h5></label>
+<!--<div class="row" >-->
+    <label class="row" ng-repeat="people in travel.peopleList">
+        <input class="col col-10" type="checkbox" ng-model="newExpense.sharedPeople[travel.peopleList.indexOf(people)].checked" checked>
+        {{people}}
+    </label>
+<!--</div>-->

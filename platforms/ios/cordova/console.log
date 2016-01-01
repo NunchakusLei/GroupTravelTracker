@@ -1,0 +1,40 @@
+2016-01-01 10:22:18.611 GroupTravelTracker[22874:1288007] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Jimmy/Library/Developer/CoreSimulator/Devices/D2D1B301-55BA-4529-8E0F-96BAE598AE7C/data/Containers/Data/Application/78C351E9-E206-4918-A356-EBFAD55970D3/Library/Cookies/com.nunchagun.grouptraveltracker.binarycookies
+2016-01-01 10:22:18.825 GroupTravelTracker[22874:1288007] Apache Cordova native platform version 3.8.0 is starting.
+2016-01-01 10:22:18.825 GroupTravelTracker[22874:1288007] Multi-tasking -> Device: YES, App: YES
+2016-01-01 10:22:18.835 GroupTravelTracker[22874:1288007] Unlimited access to network resources
+2016-01-01 10:22:19.374 GroupTravelTracker[22874:1288007] [CDVTimer][splashscreen] 297.895014ms
+2016-01-01 10:22:19.380 GroupTravelTracker[22874:1288007] [CDVTimer][statusbar] 6.316006ms
+2016-01-01 10:22:19.381 GroupTravelTracker[22874:1288007] [CDVTimer][keyboard] 0.634015ms
+2016-01-01 10:22:19.381 GroupTravelTracker[22874:1288007] [CDVTimer][TotalPluginStartup] 305.381000ms
+2016-01-01 10:22:19.440 GroupTravelTracker[22874:1288007] Resetting plugins due to page load.
+2016-01-01 10:22:19.753 GroupTravelTracker[22874:1288007] Finished load of: file:///Users/Jimmy/Library/Developer/CoreSimulator/Devices/D2D1B301-55BA-4529-8E0F-96BAE598AE7C/data/Containers/Bundle/Application/C19BE7CB-D99E-4535-A6D1-201224DAD210/GroupTravelTracker.app/www/index.html#/TravelList
+2016-01-01 14:17:54.534 GroupTravelTracker[23155:1347171] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Jimmy/Library/Developer/CoreSimulator/Devices/D2D1B301-55BA-4529-8E0F-96BAE598AE7C/data/Containers/Data/Application/AAB33A6C-E68A-4A71-A643-49EFEF648DCD/Library/Cookies/com.nunchagun.grouptraveltracker.binarycookies
+2016-01-01 14:17:54.581 GroupTravelTracker[23155:1347171] Apache Cordova native platform version 3.8.0 is starting.
+2016-01-01 14:17:54.582 GroupTravelTracker[23155:1347171] Multi-tasking -> Device: YES, App: YES
+2016-01-01 14:17:54.583 GroupTravelTracker[23155:1347171] Unlimited access to network resources
+2016-01-01 14:17:54.664 GroupTravelTracker[23155:1347171] [CDVTimer][splashscreen] 57.263970ms
+2016-01-01 14:17:54.670 GroupTravelTracker[23155:1347171] [CDVTimer][statusbar] 5.948961ms
+2016-01-01 14:17:54.671 GroupTravelTracker[23155:1347171] [CDVTimer][keyboard] 0.126004ms
+2016-01-01 14:17:54.671 GroupTravelTracker[23155:1347171] [CDVTimer][TotalPluginStartup] 63.820004ms
+2016-01-01 14:17:54.700 GroupTravelTracker[23155:1347171] Resetting plugins due to page load.
+2016-01-01 14:17:54.832 GroupTravelTracker[23155:1347171] Finished load of: file:///Users/Jimmy/Library/Developer/CoreSimulator/Devices/D2D1B301-55BA-4529-8E0F-96BAE598AE7C/data/Containers/Bundle/Application/27C5FAB9-CAAA-40DD-8188-2FDEF4ADAA20/GroupTravelTracker.app/www/index.html#/TravelList
+2016-01-01 14:28:07.704 GroupTravelTracker[23309:1351056] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Jimmy/Library/Developer/CoreSimulator/Devices/D2D1B301-55BA-4529-8E0F-96BAE598AE7C/data/Containers/Data/Application/1AC3ADC7-3E95-43DA-A847-ED3B3CF3FCBA/Library/Cookies/com.nunchagun.grouptraveltracker.binarycookies
+2016-01-01 14:28:07.862 GroupTravelTracker[23309:1351056] Apache Cordova native platform version 3.8.0 is starting.
+2016-01-01 14:28:07.863 GroupTravelTracker[23309:1351056] Multi-tasking -> Device: YES, App: YES
+2016-01-01 14:28:07.866 GroupTravelTracker[23309:1351056] Unlimited access to network resources
+2016-01-01 14:28:07.924 GroupTravelTracker[23309:1351056] [CDVTimer][splashscreen] 37.645042ms
+2016-01-01 14:28:07.930 GroupTravelTracker[23309:1351056] [CDVTimer][statusbar] 5.777001ms
+2016-01-01 14:28:07.930 GroupTravelTracker[23309:1351056] [CDVTimer][keyboard] 0.113010ms
+2016-01-01 14:28:07.931 GroupTravelTracker[23309:1351056] [CDVTimer][TotalPluginStartup] 43.915987ms
+2016-01-01 14:28:07.980 GroupTravelTracker[23309:1351056] Resetting plugins due to page load.
+2016-01-01 14:28:08.104 GroupTravelTracker[23309:1351056] Finished load of: file:///Users/Jimmy/Library/Developer/CoreSimulator/Devices/D2D1B301-55BA-4529-8E0F-96BAE598AE7C/data/Containers/Bundle/Application/41591A3B-1FE3-4A28-B165-3740472C05BC/GroupTravelTracker.app/www/index.html#/TravelList
+2016-01-01 14:37:09.155 GroupTravelTracker[23462:1354877] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Jimmy/Library/Developer/CoreSimulator/Devices/D2D1B301-55BA-4529-8E0F-96BAE598AE7C/data/Containers/Data/Application/2925080A-805B-4118-AECF-635A6947AFC5/Library/Cookies/com.nunchagun.grouptraveltracker.binarycookies
+2016-01-01 14:37:09.237 GroupTravelTracker[23462:1354877] Apache Cordova native platform version 3.8.0 is starting.
+2016-01-01 14:37:09.238 GroupTravelTracker[23462:1354877] Multi-tasking -> Device: YES, App: YES
+2016-01-01 14:37:09.241 GroupTravelTracker[23462:1354877] Unlimited access to network resources
+2016-01-01 14:37:09.301 GroupTravelTracker[23462:1354877] [CDVTimer][splashscreen] 39.466023ms
+2016-01-01 14:37:09.308 GroupTravelTracker[23462:1354877] [CDVTimer][statusbar] 6.307006ms
+2016-01-01 14:37:09.308 GroupTravelTracker[23462:1354877] [CDVTimer][keyboard] 0.118017ms
+2016-01-01 14:37:09.308 GroupTravelTracker[23462:1354877] [CDVTimer][TotalPluginStartup] 46.312034ms
+2016-01-01 14:37:09.349 GroupTravelTracker[23462:1354877] Resetting plugins due to page load.
+2016-01-01 14:37:09.474 GroupTravelTracker[23462:1354877] Finished load of: file:///Users/Jimmy/Library/Developer/CoreSimulator/Devices/D2D1B301-55BA-4529-8E0F-96BAE598AE7C/data/Containers/Bundle/Application/79F4D1FE-4C6F-4D4B-B150-C2F133011732/GroupTravelTracker.app/www/index.html#/TravelList

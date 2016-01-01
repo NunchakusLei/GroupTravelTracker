@@ -1,1 +1,94 @@
-/* Empty. Add your own CSS if you like */
+body {
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+}
+
+/*
+ion-content {
+    width: 100%;
+}
+*/
+
+.travel-list {
+    padding: 0px 5px 0px 5px; 
+    overflow: auto;
+    height: 100%;
+    /*width: 100%;*/
+}
+.travel-list .travel-item {
+    background-color: #e5e5e5;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.travel-list .travel-item:active {
+    background-color: bisque;
+}
+.travel-list:nth-child(n) {
+    padding-bottom: 90px;
+}
+
+.start-new-travel-button {
+    text-align: center;
+    display: table;
+    height: 50px;
+    width: 61%;
+    position: absolute;
+    left: 19.5%;
+    right: 19.5%;
+    /*    margin-top: 20px;*/
+    /*    margin-bottom: 20px;*/
+    /*    z-index: 999999;*/
+    border: 0px;
+    bottom: 20px;
+    top:auto!important;
+    color: #ffffcc ;
+    font-size: 12pt;
+    font-weight: 500;
+    background-color: #95efff;/*#ffffcc;*/
+    border-radius: 5px;
+}
+.start-new-travel-button:hover {
+    text-decoration: none; }
+.start-new-travel-button:active {
+    color: #ffffff;
+    background-color: #86e0f0; }
+
+.text {
+    vertical-align: middle;
+    display: table-cell;
+    position: relative;
+}
+
+.button {
+    border-color: transparent;
+    background-color: #f8f8f8;
+    color: #444;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0 12px;
+    min-width: 52px;
+    min-height: 47px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    vertical-align: top;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    line-height: 42px;
+    cursor: pointer; }
+.button:hover {
+    color: #444;
+    text-decoration: none; }
+.button.active, .button.activated {
+    background-color: #e5e5e5; }
+.button:after {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    bottom: -6px;
+    left: -6px;
+    content: ' '; 
+}

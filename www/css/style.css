@@ -4,15 +4,17 @@ body {
     width: 100%;
 }
 
+/*
 ion-content {
     width: 100%;
 }
+*/
 
 .travel-list {
     padding: 0px 5px 0px 5px; 
     overflow: auto;
     height: 100%;
-    width: 100%;
+    /*width: 100%;*/
 }
 .travel-list .travel-item {
     background-color: #e5e5e5;
@@ -34,8 +36,8 @@ ion-content {
     position: absolute;
     left: 19.5%;
     right: 19.5%;
-/*    margin-top: 20px;*/
-/*    margin-bottom: 20px;*/
+    /*    margin-top: 20px;*/
+    /*    margin-bottom: 20px;*/
     /*    z-index: 999999;*/
     border: 0px;
     bottom: 20px;

@@ -1,0 +1,16 @@
+<div class="travel-list">
+    <div class="travel-item" ng-repeat="travel in travelList" ng-click="goToExpenseList(travel)">
+        <div>
+            {{travel.place}}
+        </div>
+        <div>
+            Total amount: {{travel.totalAmount}}
+        </div>
+    </div>
+</div>
+
+<div class="start-new-travel-button " ng-click="startNewTravel()">
+    <div class="text">
+        Start a new travel
+    </div>
+</div>
