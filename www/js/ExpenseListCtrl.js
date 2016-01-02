@@ -46,13 +46,18 @@ angular.module('controller.ExpenseListCtrl',[])
         
         // select data from popup window later
         $scope.newExpense = {
+            spendPeopleName:'',
             sharedPeople:[],
             sharedPeopleNumber: $scope.travel.peopleList.length
         }
         
         // initialize the sharedPeople
         for(i=0;i<$scope.travel.peopleList.length;i++){
-            $scope.newExpense.sharedPeople.push({checked:true});
+            var people = {
+                name: $scope.travel.peopleList[i],
+                checked: true
+            }
+            $scope.newExpense.sharedPeople.push(people);
         }
 
         // show popup
@@ -101,7 +106,7 @@ angular.module('controller.ExpenseListCtrl',[])
 //                console.log("shared people",$scope.expenseList[i].sharedPeople[j]);
 
                 if ($scope.expenseList[i].sharedPeople[j].checked) {
-                    $scope.result[j].shouldExpense += $scope.expenseList[i].amount;
+                    $scope.result[j].shouldExpense += ($scope.expenseList[i].amount)/$scope.expenseList[i].sharedPeopleNumber;
                 }
             }
         }
