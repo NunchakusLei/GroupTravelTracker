@@ -1,0 +1,16 @@
+<div class="travel-list">
+    <div class="travel-item" ng-repeat="people in result">
+        <div>
+            Person name: {{people.name}}
+        </div>
+        <div>
+            Should pay: {{people.shouldExpense}}
+        </div>
+        <div>
+            Actual pay: {{people.actualExpense}}
+        </div>
+        <div style="color:red">
+            Result: You should give {{people.shouldExpense - people.actualExpense}} to the group
+        </div>
+    </div>
+</div>

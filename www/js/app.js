@@ -45,6 +45,12 @@ angular.module('GroupTravelTracker',
         controller: 'ExpenseListCtrl'
     })
 
+        .state('StatisticResult', {
+        url: "/statisticResult:result",
+        templateUrl: "views/statisticResult.html",
+        controller: 'statisticResultCtrl'
+    })
+
     ;
 
     // if none of the above states are matched, use this as the fallback
