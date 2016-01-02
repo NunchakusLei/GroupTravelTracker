@@ -27,6 +27,9 @@ angular.module('GroupTravelTrackerFactory',[])
 
             // putting data into newExpense
             newExpense.itemName = inputExpense.itemName;
+            newExpense.sharedPeople = inputExpense.sharedPeople;
+            newExpense.sharedPeopleNumber = inputExpense.sharedPeopleNumber;
+            newExpense.spendPeopleName = inputExpense.spendPeopleName;
             if (inputExpense.amount) {
                 newExpense.amount = inputExpense.amount;
             }

@@ -13,12 +13,12 @@
     {{people}}
 </label>
 
-<label class="text-center"><h5>{{color.name}} paid this item</h5></label>
+<label class="text-center"><h5>{{newExpense.payer.name}} paid this item</h5></label>
 
 <form>
-    <label class="row" ng-repeat="people in travel.peopleList">
-        <input class="col col-10" type="radio" ng-model="$parent.color.name" ng-value="people">
-        {{people}}
+    <label class="row" ng-repeat="people in newExpense.sharedPeople">
+        <input class="col col-10" type="radio" ng-model="$parent.newExpense.payer" ng-value="people">
+        {{people.name}}
     </label>
 <!--    <tt>color = {{color.name | json}}</tt><br/>-->
 </form>

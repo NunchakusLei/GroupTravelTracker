@@ -25,7 +25,7 @@ angular.module('controller.ExpenseListCtrl',[])
     //    loadTavelList();
 
     var addExpenseItem = function(inputExpense){
-        console.log(inputExpense);
+        //console.log(inputExpense);
 
         GroupTravelTracker.addExpense(currentTravelIndex,inputExpense);
         //        loadTavelList();
@@ -46,7 +46,7 @@ angular.module('controller.ExpenseListCtrl',[])
         
         // select data from popup window later
         $scope.newExpense = {
-            spendPeopleName:'',
+//            payer:'',
             sharedPeople:[],
             sharedPeopleNumber: $scope.travel.peopleList.length
         }
@@ -68,11 +68,11 @@ angular.module('controller.ExpenseListCtrl',[])
             buttons: [
                 { text: 'Cancel' },
                 {
-                    text: '<b>Save</b>',
+                    text: '<b>Add</b>',
                     type: 'button-positive',
                     onTap: function(e) {
-                        if (!$scope.newExpense.itemName) {
-                            //don't allow the user to close unless he enters item name
+                        if (!$scope.newExpense.itemName || !$scope.newExpense.payer) {
+                            //don't allow the user to close unless he enters item name and the payer
                             e.preventDefault();
                         } else {
                             addExpenseItem($scope.newExpense);
@@ -98,20 +98,23 @@ angular.module('controller.ExpenseListCtrl',[])
 
 
         for(i=0;i<$scope.expenseList.length;i++){
-
-//            console.log("expense list",$scope.expenseList[i]);
-
             for(j=0;j<$scope.result.length;j++){
 
-//                console.log("shared people",$scope.expenseList[i].sharedPeople[j]);
-
+                // calculate the amount for each person should spand
                 if ($scope.expenseList[i].sharedPeople[j].checked) {
                     $scope.result[j].shouldExpense += ($scope.expenseList[i].amount)/$scope.expenseList[i].sharedPeopleNumber;
                 }
+                
+                // calculate the actual amount each person have paid
+                if ($scope.expenseList[i].sharedPeople[j]==$scope.expenseList[i].payer) {
+                    $scope.result[j].actualExpense += $scope.expenseList[i].amount;
+                }
+                
             }
         }
 
         console.log($scope.result);
+        //$state.go('',$scope.result);
     }
 
 })
