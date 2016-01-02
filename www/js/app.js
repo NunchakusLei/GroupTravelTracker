@@ -7,6 +7,7 @@ angular.module('GroupTravelTracker',
                ['ionic',
                 'controller.ExpenseListCtrl',
                 'controller.TravelListCtrl',
+                'controller.PeopleManagementCtrl',
                 'GroupTravelTrackerFactory'
                ])
 
@@ -49,6 +50,12 @@ angular.module('GroupTravelTracker',
         url: "/statisticResult:result",
         templateUrl: "views/statisticResult.html",
         controller: 'statisticResultCtrl'
+    })
+
+        .state('PeopleManagement', {
+        url: "/peopelManagement:travelId",
+        templateUrl: "views/peopelManagement.html",
+        controller: 'PeopleManagementCtrl'
     })
 
     ;

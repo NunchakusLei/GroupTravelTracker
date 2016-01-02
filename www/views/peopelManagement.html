@@ -1,0 +1,26 @@
+<div class="travel-list">
+    <div class="text-center">
+        <h4>People list</h4>
+    </div>
+
+    <div class="row" ng-repeat="people in peopleList">
+        <div class="travel-item col col-80">
+            <div>
+                {{people}}
+            </div>
+        </div>
+        <div class="col col-20">
+            <div class="button" ng-click="deletePeople(people)"> delete </div>
+        </div>
+
+    </div>
+
+    <div>
+        <div class="row button" >Done</div>
+    </div>
+
+    <div class="start-new-travel-button " ng-click="showAddPeoplePopup()">
+        <div class="text">
+            Add a new person
+        </div>
+    </div>

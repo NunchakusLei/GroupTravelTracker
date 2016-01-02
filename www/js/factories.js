@@ -39,17 +39,27 @@ angular.module('GroupTravelTrackerFactory',[])
             this.saveTrvelList();
         },
         removeExpense: function(travelId,expense){
-            travelList[travelId].expenseList.remove(expense);
+            travelList[travelId].expenseList.remove(expense); // has problem!!!
             travelList[travelId].totalAmount -= expense.amount;
             this.saveTrvelList();
         },
-        addNewTravel: function(place){
+        addPeople: function(travelId,person) {
+            travelList[travelId].peopleList.push(person);
+            this.saveTrvelList();
+        },
+        removePeople: function(travelId,person) {
+            var personIndex = travelList[travelId].peopleList.indexOf(person);
+            
+            travelList[travelId].peopleList.splice(personIndex,1);
+            this.saveTrvelList();
+        },
+        addNewTravel: function(place,peopleList){
             // initialize the new travel
             var travel = {};
             travel.place = place;
             travel.expenseList = [];
             travel.totalAmount = 0;
-            travel.peopleList = ['me','you','he','she'];
+            travel.peopleList = peopleList;
 
             // push new travel into travel list
             travelList.push(travel);

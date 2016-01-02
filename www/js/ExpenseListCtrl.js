@@ -85,47 +85,24 @@ angular.module('controller.ExpenseListCtrl',[])
 
     $scope.staticResult = function() {
         $scope.result = [];
-
-        //console.log($scope.travel.peopleList.length);
-        //console.log($scope.result);
-
+        
         for(i=0;i<$scope.travel.peopleList.length;i++){
-            //console.log($scope.result);
-
             var resultPeople = {
                 name: $scope.travel.peopleList[i],
                 actualExpense: 0,
                 shouldExpense: 0
             };
 
-            //console.log(resultPeople);
-
             $scope.result.push(resultPeople);
-
-            //console.log($scope.result);
         }
 
-        //console.log($scope.result);
-
-        //console.log($scope.expenseList.length);
-
         for(i=0;i<$scope.expenseList.length;i++){
-
-            //console.log($scope.expenseList[i].sharedPeople);
-            //console.log($scope.expenseList[i]);
-
             for(j=0;j<$scope.result.length;j++){
 
                 // calculate the amount for each person should spand
                 if ($scope.expenseList[i].sharedPeople[j].checked) {
-
-                    //console.log($scope.expenseList[i].amount);
-
                     $scope.result[j].shouldExpense += ($scope.expenseList[i].amount)/$scope.expenseList[i].sharedPeopleNumber;
                 }
-
-                //console.log($scope.expenseList[i].sharedPeople[j]);
-                //console.log($scope.expenseList[i].payer);
 
                 // calculate the actual amount each person have paid
                 if ($scope.expenseList[i].sharedPeople[j].name==$scope.expenseList[i].payer.name) {
@@ -134,8 +111,6 @@ angular.module('controller.ExpenseListCtrl',[])
 
             }
         }
-
-        //        console.log($scope.result);
 
         // prepare for passing object value
         var params = angular.toJson($scope.result);
