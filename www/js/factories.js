@@ -5,6 +5,8 @@ angular.module('GroupTravelTrackerFactory',[])
     var travel = {
         place:'',
         expenseList:[],
+        dStart:'',
+        dEnd:'',
         totalAmount: 0
     };
     var travelList = [];
@@ -53,13 +55,15 @@ angular.module('GroupTravelTrackerFactory',[])
             travelList[travelId].peopleList.splice(personIndex,1);
             this.saveTrvelList();
         },
-        addNewTravel: function(place,peopleList){
+        addNewTravel: function(place,peopleList,dStart,dEnd){
             // initialize the new travel
             var travel = {};
             travel.place = place;
             travel.expenseList = [];
             travel.totalAmount = 0;
             travel.peopleList = peopleList;
+            travel.dStart = dStart;
+            travel.dEnd = dEnd;
 
             // push new travel into travel list
             travelList.push(travel);

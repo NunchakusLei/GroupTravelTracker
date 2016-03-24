@@ -1,6 +1,8 @@
 {
     "jscodehints.detectedExclusions": [
         "/Users/Jimmy/Documents/ionic/GroupTravelTracker/www/js/app.js",
-        "/Users/Jimmy/Documents/ionic/GroupTravelTracker/www/js/TravelListCtrl.js"
+        "/Users/Jimmy/Documents/ionic/GroupTravelTracker/www/js/TravelListCtrl.js",
+        "/Users/TylerShen/Desktop/GroupTravelTracker/www/js/PeopleManagementCtrl.js",
+        "/Users/TylerShen/Desktop/GroupTravelTracker/www/js/factories.js"
     ]
 }

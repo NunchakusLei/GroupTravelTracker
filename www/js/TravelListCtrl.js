@@ -16,7 +16,7 @@ angular.module('controller.TravelListCtrl',[])
     //    loadTravelList();
 
     $scope.startNewTravel = function(newTravel){
-        GroupTravelTracker.addNewTravel(newTravel.place,newTravel.peopleList);
+        GroupTravelTracker.addNewTravel(newTravel.place,newTravel.peopleList,newTravel.dStart,newTravel.dEnd);
         //        loadTravelList();
     }
 
@@ -30,7 +30,9 @@ angular.module('controller.TravelListCtrl',[])
         // select data from popup window later
         $scope.newTravel = {
             place:'',
-            peopleList: ["Me","You"]
+            peopleList: ["Me","You"],
+            dStart:'',
+            dEnd:''
         }
 
         // show popup
